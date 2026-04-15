@@ -1,40 +1,68 @@
-# 🧠 Proyecto: Xarm
+# 🎮 Simulador 2D
 
-## 📌 Descripción
-Breve explicación de qué hace este módulo.
-Ej: Control y navegación del robot Husky en entorno simulado.
+**Branch**: `simulador-2d`
+
+## 📝 Descripción del Proyecto
+
+Plataforma de simulación 2D para validar algoritmos de navegación, control de robots y estrategias de movimiento sin necesidad de hardware físico.
+
+## 🎯 Objetivos del Equipo
+
+- Crear simulador 2D realista y robusto
+- Implementar física básica (cinemática, fricción)
+- Visualización interactiva de escenarios
+- Comparación de algoritmos de navegación
+- Exportación de datos de simulación
+
+## 📦 Estructura del Proyecto
+
+```
+src/
+├── engine/              # Motor de simulación
+├── physics/             # Cálculos físicos
+├── visualization/       # Renderizado visual
+├── scenarios/           # Escenarios predefinidos
+├── algorithms/          # Algoritmos de navegación
+└── utils/               # Utilidades
+
+tests/
+├── unit/                # Pruebas unitarias
+├── physics_tests/       # Validación de física
+└── visualization/       # Pruebas visuales
+
+scenarios/
+├── warehouse/           # Simulación de almacén
+├── outdoor/             # Entorno exterior
+└── maze/                # Laberintos
+```
+
+## 🚀 Primeros Pasos
+
+1. Revisar `PROGRESS.md` para tareas asignadas
+2. Revisar documentación de física 2D
+3. Crear features en sub-branches: `feature/[nombre]`
+4. Pushar cambios regularmente
+
+## 🔧 Stack Tecnológico
+
+- **Lenguaje**: Python 3.8+
+- **Visualización**: Pygame / Matplotlib
+- **Física**: Numpy, Scipy
+- **Versionado**: Git
+
+## 📋 Checklist Inicial
+
+- [ ] Entender arquitectura del simulador
+- [ ] Configurar entorno local
+- [ ] Ejecutar primera simulación
+- [ ] Validar física básica
+- [ ] Primer commit
+
+## 👥 Equipo
+
+- **Tech Lead**: -
+- **Desarrolladores**: -
 
 ---
 
-## 🚦 Estado actual
-- [ ] Planeación
-- [ ] Desarrollo
-- [ ] Testing
-- [ ] Integración con Tech Lead
-- [ ] Listo para producción
-
-👉 Estado actual: **[Ej: Desarrollo - 60%]**
-
----
-
-## ⚙️ Funcionalidades
-- [x] Inicialización del sistema
-- [ ] Control de movimiento
-- [ ] Sensores integrados
-- [ ] Navegación autónoma
-
----
-
-## 🧪 Pruebas
-- Qué ya probaste
-- Qué falta validar
-- Resultados importantes
-
-Ej:
-- Movimiento básico probado ✅
-- Fallo en giros bruscos ⚠️
-
----
-
-## 🧱 Arquitectura
-Explica cómo está armado:
+**Creado**: Abril 2026
