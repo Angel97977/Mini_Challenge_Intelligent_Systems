@@ -1,6 +1,6 @@
-# 📊 Dashboard de Progreso - ANYmal Engineer Husky
+# 📊 Dashboard de Progreso - Husky Robot
 
-**Rama**: `anymal-engineer-husky`  
+**Rama**: `husky`  
 **Última actualización**: Abril 15, 2026
 
 ---
