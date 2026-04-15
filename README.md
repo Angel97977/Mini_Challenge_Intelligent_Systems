@@ -1,40 +1,62 @@
-# 🧠 Proyecto: Xarm
+# 🐾 ANYmal Engineer - Husky Platform
 
-## 📌 Descripción
-Breve explicación de qué hace este módulo.
-Ej: Control y navegación del robot Husky en entorno simulado.
+**Branch**: `anymal-engineer-husky`
+
+## 📝 Descripción del Proyecto
+
+Desarrollo de módulos de control y navegación para plataformas ANYmal y Husky robóticas.
+
+## 🎯 Objetivos del Equipo
+
+- Implementar controladores de locomoción
+- Desarrollar sistemas de navegación autónoma
+- Integración con sensores (LiDAR, cámaras, IMU)
+- Comunicación ROS/ROS2
+- Pruebas de impedancia y estabilidad
+
+## 📦 Estructura del Proyecto
+
+```
+src/
+├── controllers/         # Controladores de movimiento
+├── navigation/          # Módulos de navegación
+├── sensors/             # Interfaz con sensores
+├── utils/               # Utilidades generales
+└── docs/                # Documentación técnica
+
+tests/
+├── unit/                # Pruebas unitarias
+├── integration/         # Pruebas de integración
+└── sim/                 # Simulaciones
+```
+
+## 🚀 Primeros Pasos
+
+1. Revisar `PROGRESS.md` para tareas asignadas
+2. Revisar documentación base
+3. Crear features en sub-branches: `feature/[nombre]`
+4. Pushar cambios regularmente
+
+## 🔧 Stack Tecnológico
+
+- **Lenguaje**: Python 3.8+
+- **Framework**: ROS / ROS2
+- **Control**: URDF, Gazebo
+- **Versionado**: Git
+
+## 📋 Checklist Inicial
+
+- [ ] Entender arquitectura general
+- [ ] Revisar documentación base
+- [ ] Configurar entorno local
+- [ ] Ejecutar pruebas iniciales
+- [ ] Primer commit
+
+## 👥 Equipo
+
+- **Tech Lead**: -
+- **Desarrolladores**: -
 
 ---
 
-## 🚦 Estado actual
-- [ ] Planeación
-- [ ] Desarrollo
-- [ ] Testing
-- [ ] Integración con Tech Lead
-- [ ] Listo para producción
-
-👉 Estado actual: **[Ej: Desarrollo - 60%]**
-
----
-
-## ⚙️ Funcionalidades
-- [x] Inicialización del sistema
-- [ ] Control de movimiento
-- [ ] Sensores integrados
-- [ ] Navegación autónoma
-
----
-
-## 🧪 Pruebas
-- Qué ya probaste
-- Qué falta validar
-- Resultados importantes
-
-Ej:
-- Movimiento básico probado ✅
-- Fallo en giros bruscos ⚠️
-
----
-
-## 🧱 Arquitectura
-Explica cómo está armado:
+**Creado**: Abril 2026
