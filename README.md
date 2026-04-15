@@ -1,10 +1,10 @@
-# 🐾 ANYmal Engineer - Husky Platform
+# 🤖 ANYmal Robot Platform
 
-**Branch**: `anymal-engineer-husky`
+**Branch**: `anymal`
 
 ## 📝 Descripción del Proyecto
 
-Desarrollo de módulos de control y navegación para plataformas ANYmal y Husky robóticas.
+Desarrollo de módulos de control y navegación para la plataforma de cuatro patas ANYmal robótica.
 
 ## 🎯 Objetivos del Equipo
 
